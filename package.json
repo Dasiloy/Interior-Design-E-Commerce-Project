@@ -5,15 +5,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve-json": "json-server --watch db.json --port 4000",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/css": "^11.5.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@reduxjs/toolkit": "^1.7.0",
+    "antd": "^4.17.3",
+    "axios": "^0.24.0",
+    "framer-motion": "^5.4.5",
+    "json-server": "^0.17.0",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-items-carousel": "^2.8.0",
+    "swiper": "^7.3.1",
+    "swr": "^1.1.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "babel-plugin-macros": "^3.1.0",
     "eslint": "8.4.1",
-    "eslint-config-next": "12.0.7"
+    "eslint-config-next": "12.0.7",
+    "tailwindcss": "^3.0.0",
+    "twin.macro": "^2.8.2"
   }
 }

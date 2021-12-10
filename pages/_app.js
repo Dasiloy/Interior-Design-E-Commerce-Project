@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import { GlobalStyles } from "twin.macro";
+import "antd/dist/antd.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }) => (
+  <>
+    <GlobalStyles />
+    <Component {...pageProps} />
+  </>
+);
 
-export default MyApp
+export default App;

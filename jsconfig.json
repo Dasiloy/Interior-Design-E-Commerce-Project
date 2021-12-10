@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "$layout/*": ["components/layout/*"],
+      "$testing/*": ["components/testing/*"]
+    }
+  },
+  "include": [
+    "components/**/*.d.ts",
+    "components/**/*.js",
+    "components/**/*.jsx"
+  ],
+  "exclude": ["node_modules", "**/node_modules", "dist"]
+}
