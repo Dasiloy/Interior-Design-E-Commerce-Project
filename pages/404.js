@@ -1,11 +1,9 @@
-import GenLayout from "components/atoms/GenLayout";
+import PageLayout from "components/layout/PageLayout";
 
 export default function AboutPage() {
-  return (
-    <GenLayout
-      title="Interior  Error Page"
-      content="The errorpage for classic interior design">
-      hello from error page
-    </GenLayout>
-  );
+	return (
+		<PageLayout title="Interior error page" content="The homepage for classic interior design">
+			This page does not exist
+		</PageLayout>
+	);
 }

@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "serve-json": "json-server --watch db.json --port 4000",
+    "api": "json-server --watch db.json --port 4000",
     "export": "next build && next export"
   },
   "dependencies": {
@@ -21,10 +21,16 @@
     "framer-motion": "^5.4.5",
     "json-server": "^0.17.0",
     "next": "12.0.7",
+    "next-auth": "^4.0.5",
+    "nextjs-progressbar": "^0.0.13",
     "react": "17.0.2",
+    "react-card-flip": "^1.1.4",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
     "react-items-carousel": "^2.8.0",
+    "react-query": "^3.34.7",
+    "react-redux": "^7.2.6",
+    "redux-logger": "^3.0.6",
     "swiper": "^7.3.1",
     "swr": "^1.1.1",
     "uuid": "^8.3.2"
